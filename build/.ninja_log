@@ -1,0 +1,72 @@
+# ninja log v5
+3094	3356	1730334000056283298	CatGame/CatGame	f340fed873ab710e
+1955	3094	1730333999815971078	CatGame/CMakeFiles/CatGame.dir/SpriteComponent.cpp.o	eb7f15f2348ef5cd
+1915	3088	1730333999810698071	CatGame/CMakeFiles/CatGame.dir/Random.cpp.o	84fbb9db1f3a093e
+1589	2957	1730333999679535262	CatGame/CMakeFiles/CatGame.dir/PlayerMove.cpp.o	ccb3e8abf495c965
+28	2261	1730333998974593781	CatGame/CMakeFiles/CatGame.dir/AnimatedSprite.cpp.o	5637b45fdefcd19c
+30	2151	1730333998871637537	CatGame/CMakeFiles/CatGame.dir/Goomba.cpp.o	3764aac0f094e023
+28	1914	1730333998630152922	CatGame/CMakeFiles/CatGame.dir/Block.cpp.o	55ed51a9fd89c6fd
+28	1588	1730333998312286338	CatGame/CMakeFiles/CatGame.dir/CollisionComponent.cpp.o	4963beee2ea938eb
+28	1569	1730333998287534171	CatGame/CMakeFiles/CatGame.dir/Component.cpp.o	3842528750543d54
+24	3021	1730333930203624039	CatGame/CMakeFiles/Lab04.dir/Game.cpp.o	9791fb6716b1952f
+23	2201	1730333929381487876	CatGame/CMakeFiles/Lab04.dir/Actor.cpp.o	a1592639d66b36f3
+1595	2856	1730333930036811444	CatGame/CMakeFiles/Lab04.dir/PlayerMove.cpp.o	b7e9985968fdb800
+1989	3000	1730333930182569299	CatGame/CMakeFiles/Lab04.dir/SpriteComponent.cpp.o	854b9e0f25ef57e1
+1832	2928	1730333930109516776	CatGame/CMakeFiles/Lab04.dir/Random.cpp.o	ddfac1c412d08fae
+27	2942	1730331995677101781	Lab04/CMakeFiles/Lab04.dir/Game.cpp.o	c80cbafb6725a64a
+1974	2977	1730333930159247097	CatGame/CMakeFiles/Lab04.dir/Spawner.cpp.o	ce6cbe9ad5d27c5b
+30	2078	1730333998799601668	CatGame/CMakeFiles/CatGame.dir/GoombaMove.cpp.o	da038d026e6d1cba
+28	2043	1730331994780205294	Lab04/CMakeFiles/Lab04.dir/GoombaMove.cpp.o	2fbd0c2dceea9849
+23	2242	1730333929420782092	CatGame/CMakeFiles/Lab04.dir/AnimatedSprite.cpp.o	3a97600aa984eb6
+26	2072	1730333929249539569	CatGame/CMakeFiles/Lab04.dir/Goomba.cpp.o	10c5130cb7039672
+30	1974	1730333929152991271	CatGame/CMakeFiles/Lab04.dir/Main.cpp.o	fb79705e222e5774
+27	239	1730331992979959852	Lab04/CMakeFiles/Lab04.dir/Core.cpp.o	a57349a389680a09
+23	1832	1730333929012428219	CatGame/CMakeFiles/Lab04.dir/Block.cpp.o	ba83d2de38c45e76
+1924	3051	1730331995788185210	Lab04/CMakeFiles/Lab04.dir/Spawner.cpp.o	c64624e0c9ec1552
+27	2060	1730333998782073112	CatGame/CMakeFiles/CatGame.dir/Actor.cpp.o	8b9311a7e6096722
+23	1530	1730333928690383029	CatGame/CMakeFiles/Lab04.dir/CollisionComponent.cpp.o	f96eaeff620ba2b5
+23	1595	1730333928777210934	CatGame/CMakeFiles/Lab04.dir/Component.cpp.o	ccc03cf6de6696c0
+280	661	1730333927846943389	CatGame/CMakeFiles/Lab04.dir/Math.cpp.o	802934dbcffb61b7
+1572	2959	1730333999681370413	CatGame/CMakeFiles/CatGame.dir/Player.cpp.o	c3611248d61d3ba7
+220	593	1730333997320517435	CatGame/CMakeFiles/CatGame.dir/Math.cpp.o	320bd038ce2d9a0f
+25	1941	1730331994676907011	Lab04/CMakeFiles/Lab04.dir/Actor.cpp.o	a6d6c3d3d1e88610
+594	1949	1730333998673048652	CatGame/CMakeFiles/CatGame.dir/MoveComponent.cpp.o	7315726cfbc5316d
+28	2032	1730331994769671880	Lab04/CMakeFiles/Lab04.dir/Goomba.cpp.o	6807e1b4eeb0bf54
+241	487	1730331993229351145	Lab04/CMakeFiles/Lab04.dir/Math.cpp.o	fdb51d4133a963b1
+3079	3384	1730331996097856524	Lab04/Lab04	473c011aee8e684a
+30	1989	1730331994726113449	Lab04/CMakeFiles/Lab04.dir/Main.cpp.o	2efe3e2f712154b4
+30	1955	1730333998676776368	CatGame/CMakeFiles/CatGame.dir/Main.cpp.o	8b4d93ef922bc435
+1949	3055	1730333999778407435	CatGame/CMakeFiles/CatGame.dir/Spawner.cpp.o	d335d10f94b1588d
+26	1557	1730331994295657132	Lab04/CMakeFiles/Lab04.dir/CollisionComponent.cpp.o	83e026112dc190d2
+27	2064	1730333929209966451	CatGame/CMakeFiles/Lab04.dir/GoombaMove.cpp.o	488baafd60f37e51
+1575	2840	1730331995576902243	Lab04/CMakeFiles/Lab04.dir/PlayerMove.cpp.o	70f25cfb96975c39
+24	279	1730333927463823281	CatGame/CMakeFiles/Lab04.dir/Core.cpp.o	215b6627318fb03e
+1562	2880	1730331995618960942	Lab04/CMakeFiles/Lab04.dir/Player.cpp.o	ed724bfcb77c38ff
+5	35	1730334358955390000	/Users/rachel1o1/Fall 2024/coca-f2024/build/CMakeFiles/cmake.verify_globs	b39717bcda6674af
+1534	2869	1730333930051037636	CatGame/CMakeFiles/Lab04.dir/Player.cpp.o	ad51c3719738d7a0
+663	1989	1730333929170668401	CatGame/CMakeFiles/Lab04.dir/MoveComponent.cpp.o	c383ec56c5bc7feb
+26	1842	1730331994578976212	Lab04/CMakeFiles/Lab04.dir/Block.cpp.o	9499914a0b4bf9d4
+1842	3015	1730331995753725104	Lab04/CMakeFiles/Lab04.dir/Random.cpp.o	e1e67b0ea2451b3f
+25	2203	1730331994939772990	Lab04/CMakeFiles/Lab04.dir/AnimatedSprite.cpp.o	fad531c828b80081
+28	219	1730333996945769999	CatGame/CMakeFiles/CatGame.dir/Core.cpp.o	e53f013d482d3e6b
+1941	3079	1730331995816562220	Lab04/CMakeFiles/Lab04.dir/SpriteComponent.cpp.o	4b03b280bff70938
+29	3081	1730333999801472484	CatGame/CMakeFiles/CatGame.dir/Game.cpp.o	8ac8ae26bab2d242
+488	1924	1730331994661668576	Lab04/CMakeFiles/Lab04.dir/MoveComponent.cpp.o	765d680c9bbfb0e3
+26	1575	1730331994313061838	Lab04/CMakeFiles/Lab04.dir/Component.cpp.o	25b4776d0fbd528a
+35	159	1730334359064698806	build.ninja	5fd13d8281d8a5b2
+4	25	0	/Users/rachel1o1/Fall 2024/coca-f2024/build/CMakeFiles/cmake.verify_globs	b39717bcda6674af
+32	1703	1730334360768643966	CatGame/CMakeFiles/CatGame.dir/Block.cpp.o	55ed51a9fd89c6fd
+35	1706	1730334360769685660	CatGame/CMakeFiles/CatGame.dir/SpriteComponent.cpp.o	eb7f15f2348ef5cd
+32	1734	1730334360803352846	CatGame/CMakeFiles/CatGame.dir/Main.cpp.o	8b4d93ef922bc435
+33	1824	1730334360891110201	CatGame/CMakeFiles/CatGame.dir/Player.cpp.o	c3611248d61d3ba7
+32	1907	1730334360976798251	CatGame/CMakeFiles/CatGame.dir/Actor.cpp.o	8b9311a7e6096722
+32	1940	1730334361009822264	CatGame/CMakeFiles/CatGame.dir/AnimatedSprite.cpp.o	5637b45fdefcd19c
+32	2352	1730334361424101820	CatGame/CMakeFiles/CatGame.dir/Game.cpp.o	8ac8ae26bab2d242
+4	27	0	/Users/rachel1o1/Fall 2024/coca-f2024/build/CMakeFiles/cmake.verify_globs	b39717bcda6674af
+4	26	0	/Users/rachel1o1/Fall 2024/coca-f2024/build/CMakeFiles/cmake.verify_globs	b39717bcda6674af
+33	635	1730334421140878760	CatGame/CMakeFiles/CatGame.dir/PlayerMove.cpp.o	ccb3e8abf495c965
+635	1019	1730334421476378061	CatGame/CatGame	3a547229e4bf71df
+4	25	0	/Users/rachel1o1/Fall 2024/coca-f2024/build/CMakeFiles/cmake.verify_globs	b39717bcda6674af
+34	641	1730334434403494208	CatGame/CMakeFiles/CatGame.dir/PlayerMove.cpp.o	ccb3e8abf495c965
+641	876	1730334434597015990	CatGame/CatGame	3a547229e4bf71df
+3	24	0	/Users/rachel1o1/Fall 2024/coca-f2024/build/CMakeFiles/cmake.verify_globs	b39717bcda6674af
