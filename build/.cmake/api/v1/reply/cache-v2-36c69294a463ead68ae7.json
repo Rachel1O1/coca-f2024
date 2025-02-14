@@ -91,7 +91,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "/Users/rachel1o1/Fall 2024/coca-f2024/build"
+			"value" : "/Users/rachel1o1/Old Desktop Stuff/USC stuff/Fall 2024/coca-f2024/build"
 		},
 		{
 			"name" : "CMAKE_CACHE_MAJOR_VERSION",
@@ -115,7 +115,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "28"
+			"value" : "31"
 		},
 		{
 			"name" : "CMAKE_CACHE_PATCH_VERSION",
@@ -127,7 +127,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "1"
+			"value" : "5"
 		},
 		{
 			"name" : "CMAKE_COMMAND",
@@ -139,7 +139,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "/opt/homebrew/Cellar/cmake/3.28.1/bin/cmake"
+			"value" : "/opt/homebrew/bin/cmake"
 		},
 		{
 			"name" : "CMAKE_CPACK_COMMAND",
@@ -151,7 +151,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "/opt/homebrew/Cellar/cmake/3.28.1/bin/cpack"
+			"value" : "/opt/homebrew/bin/cpack"
 		},
 		{
 			"name" : "CMAKE_CTEST_COMMAND",
@@ -163,7 +163,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "/opt/homebrew/Cellar/cmake/3.28.1/bin/ctest"
+			"value" : "/opt/homebrew/bin/ctest"
 		},
 		{
 			"name" : "CMAKE_CXX_COMPILER",
@@ -478,6 +478,22 @@
 			"value" : ""
 		},
 		{
+			"name" : "CMAKE_EXPORT_BUILD_DATABASE",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "Enable/Disable output of build database during the build."
+				}
+			],
+			"type" : "BOOL",
+			"value" : ""
+		},
+		{
 			"name" : "CMAKE_EXPORT_COMPILE_COMMANDS",
 			"properties" : 
 			[
@@ -511,7 +527,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "/Users/rachel1o1/Fall 2024/coca-f2024/build/CMakeFiles/pkgRedirects"
+			"value" : "/Users/rachel1o1/Old Desktop Stuff/USC stuff/Fall 2024/coca-f2024/build/CMakeFiles/pkgRedirects"
 		},
 		{
 			"name" : "CMAKE_GENERATOR",
@@ -571,7 +587,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "/Users/rachel1o1/Fall 2024/coca-f2024"
+			"value" : "/Users/rachel1o1/Old Desktop Stuff/USC stuff/Fall 2024/coca-f2024"
 		},
 		{
 			"name" : "CMAKE_INSTALL_NAME_TOOL",
@@ -899,7 +915,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "/opt/homebrew/Cellar/cmake/3.28.1/share/cmake"
+			"value" : "/opt/homebrew/share/cmake"
 		},
 		{
 			"name" : "CMAKE_SHARED_LINKER_FLAGS",
@@ -1259,7 +1275,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "/Users/rachel1o1/Fall 2024/coca-f2024/build"
+			"value" : "/Users/rachel1o1/Old Desktop Stuff/USC stuff/Fall 2024/coca-f2024/build"
 		},
 		{
 			"name" : "coca_f2024_IS_TOP_LEVEL",
@@ -1283,7 +1299,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "/Users/rachel1o1/Fall 2024/coca-f2024"
+			"value" : "/Users/rachel1o1/Old Desktop Stuff/USC stuff/Fall 2024/coca-f2024"
 		},
 		{
 			"name" : "itp380labs_BINARY_DIR",
@@ -1295,7 +1311,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "/Users/rachel1o1/Fall 2024/coca-f2024/build"
+			"value" : "/Users/rachel1o1/Old Desktop Stuff/USC stuff/Fall 2024/coca-f2024/build"
 		},
 		{
 			"name" : "itp380labs_IS_TOP_LEVEL",
@@ -1319,7 +1335,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "/Users/rachel1o1/Fall 2024/coca-f2024"
+			"value" : "/Users/rachel1o1/Old Desktop Stuff/USC stuff/Fall 2024/coca-f2024"
 		}
 	],
 	"kind" : "cache",

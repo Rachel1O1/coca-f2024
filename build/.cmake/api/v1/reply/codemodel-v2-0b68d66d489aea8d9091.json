@@ -55,7 +55,7 @@
 				{
 					"directoryIndex" : 1,
 					"id" : "CatGame::@de40d892bc185de19b20",
-					"jsonFile" : "target-CatGame-Debug-5f341663eae04c3995cf.json",
+					"jsonFile" : "target-CatGame-Debug-e98402eb827a95464384.json",
 					"name" : "CatGame",
 					"projectIndex" : 0
 				}
@@ -65,12 +65,12 @@
 	"kind" : "codemodel",
 	"paths" : 
 	{
-		"build" : "/Users/rachel1o1/Fall 2024/coca-f2024/build",
-		"source" : "/Users/rachel1o1/Fall 2024/coca-f2024"
+		"build" : "/Users/rachel1o1/Old Desktop Stuff/USC stuff/Fall 2024/coca-f2024/build",
+		"source" : "/Users/rachel1o1/Old Desktop Stuff/USC stuff/Fall 2024/coca-f2024"
 	},
 	"version" : 
 	{
 		"major" : 2,
-		"minor" : 6
+		"minor" : 7
 	}
 }

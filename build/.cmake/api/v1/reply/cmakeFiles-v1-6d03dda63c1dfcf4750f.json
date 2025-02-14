@@ -1,0 +1,272 @@
+{
+	"globsDependent" : 
+	[
+		{
+			"expression" : "/Users/rachel1o1/Old Desktop Stuff/USC stuff/Fall 2024/coca-f2024/CatGame/*.cpp",
+			"listDirectories" : true,
+			"paths" : 
+			[
+				"/Users/rachel1o1/Old Desktop Stuff/USC stuff/Fall 2024/coca-f2024/CatGame/Actor.cpp",
+				"/Users/rachel1o1/Old Desktop Stuff/USC stuff/Fall 2024/coca-f2024/CatGame/AnimatedSprite.cpp",
+				"/Users/rachel1o1/Old Desktop Stuff/USC stuff/Fall 2024/coca-f2024/CatGame/Block.cpp",
+				"/Users/rachel1o1/Old Desktop Stuff/USC stuff/Fall 2024/coca-f2024/CatGame/CollisionComponent.cpp",
+				"/Users/rachel1o1/Old Desktop Stuff/USC stuff/Fall 2024/coca-f2024/CatGame/Component.cpp",
+				"/Users/rachel1o1/Old Desktop Stuff/USC stuff/Fall 2024/coca-f2024/CatGame/Core.cpp",
+				"/Users/rachel1o1/Old Desktop Stuff/USC stuff/Fall 2024/coca-f2024/CatGame/Game.cpp",
+				"/Users/rachel1o1/Old Desktop Stuff/USC stuff/Fall 2024/coca-f2024/CatGame/Main.cpp",
+				"/Users/rachel1o1/Old Desktop Stuff/USC stuff/Fall 2024/coca-f2024/CatGame/Math.cpp",
+				"/Users/rachel1o1/Old Desktop Stuff/USC stuff/Fall 2024/coca-f2024/CatGame/MoveComponent.cpp",
+				"/Users/rachel1o1/Old Desktop Stuff/USC stuff/Fall 2024/coca-f2024/CatGame/Player.cpp",
+				"/Users/rachel1o1/Old Desktop Stuff/USC stuff/Fall 2024/coca-f2024/CatGame/PlayerMove.cpp",
+				"/Users/rachel1o1/Old Desktop Stuff/USC stuff/Fall 2024/coca-f2024/CatGame/Random.cpp",
+				"/Users/rachel1o1/Old Desktop Stuff/USC stuff/Fall 2024/coca-f2024/CatGame/SpriteComponent.cpp"
+			]
+		},
+		{
+			"expression" : "/Users/rachel1o1/Old Desktop Stuff/USC stuff/Fall 2024/coca-f2024/CatGame/*.h",
+			"listDirectories" : true,
+			"paths" : 
+			[
+				"/Users/rachel1o1/Old Desktop Stuff/USC stuff/Fall 2024/coca-f2024/CatGame/Actor.h",
+				"/Users/rachel1o1/Old Desktop Stuff/USC stuff/Fall 2024/coca-f2024/CatGame/AnimatedSprite.h",
+				"/Users/rachel1o1/Old Desktop Stuff/USC stuff/Fall 2024/coca-f2024/CatGame/Block.h",
+				"/Users/rachel1o1/Old Desktop Stuff/USC stuff/Fall 2024/coca-f2024/CatGame/CollisionComponent.h",
+				"/Users/rachel1o1/Old Desktop Stuff/USC stuff/Fall 2024/coca-f2024/CatGame/Component.h",
+				"/Users/rachel1o1/Old Desktop Stuff/USC stuff/Fall 2024/coca-f2024/CatGame/Game.h",
+				"/Users/rachel1o1/Old Desktop Stuff/USC stuff/Fall 2024/coca-f2024/CatGame/Math.h",
+				"/Users/rachel1o1/Old Desktop Stuff/USC stuff/Fall 2024/coca-f2024/CatGame/MoveComponent.h",
+				"/Users/rachel1o1/Old Desktop Stuff/USC stuff/Fall 2024/coca-f2024/CatGame/Player.h",
+				"/Users/rachel1o1/Old Desktop Stuff/USC stuff/Fall 2024/coca-f2024/CatGame/PlayerMove.h",
+				"/Users/rachel1o1/Old Desktop Stuff/USC stuff/Fall 2024/coca-f2024/CatGame/Random.h",
+				"/Users/rachel1o1/Old Desktop Stuff/USC stuff/Fall 2024/coca-f2024/CatGame/SpriteComponent.h"
+			]
+		},
+		{
+			"expression" : "/Users/rachel1o1/Old Desktop Stuff/USC stuff/Fall 2024/coca-f2024/CatGame/*.hpp",
+			"listDirectories" : true,
+			"paths" : []
+		}
+	],
+	"inputs" : 
+	[
+		{
+			"path" : "CMakeLists.txt"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "build/CMakeFiles/3.31.5/CMakeSystem.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/opt/homebrew/share/cmake/Modules/CMakeSystemSpecificInitialize.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/opt/homebrew/share/cmake/Modules/Platform/Darwin-Initialize.cmake"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "build/CMakeFiles/3.31.5/CMakeCCompiler.cmake"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "build/CMakeFiles/3.31.5/CMakeCXXCompiler.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/opt/homebrew/share/cmake/Modules/CMakeSystemSpecificInformation.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/opt/homebrew/share/cmake/Modules/CMakeGenericSystem.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/opt/homebrew/share/cmake/Modules/CMakeInitializeConfigs.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/opt/homebrew/share/cmake/Modules/Platform/Darwin.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/opt/homebrew/share/cmake/Modules/Platform/UnixPaths.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/opt/homebrew/share/cmake/Modules/CMakeCInformation.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/opt/homebrew/share/cmake/Modules/CMakeLanguageInformation.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/opt/homebrew/share/cmake/Modules/Compiler/AppleClang-C.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/opt/homebrew/share/cmake/Modules/Compiler/Clang.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/opt/homebrew/share/cmake/Modules/Compiler/CMakeCommonCompilerMacros.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/opt/homebrew/share/cmake/Modules/Compiler/GNU.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/opt/homebrew/share/cmake/Modules/Compiler/CMakeCommonCompilerMacros.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/opt/homebrew/share/cmake/Modules/Platform/Apple-AppleClang-C.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/opt/homebrew/share/cmake/Modules/Platform/Apple-Clang-C.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/opt/homebrew/share/cmake/Modules/Platform/Apple-Clang.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/opt/homebrew/share/cmake/Modules/CMakeCommonLanguageInclude.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/opt/homebrew/share/cmake/Modules/Internal/CMakeCLinkerInformation.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/opt/homebrew/share/cmake/Modules/Internal/CMakeCommonLinkerInformation.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/opt/homebrew/share/cmake/Modules/Linker/AppleClang-C.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/opt/homebrew/share/cmake/Modules/Linker/AppleClang.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/opt/homebrew/share/cmake/Modules/Platform/Linker/Apple-AppleClang-C.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/opt/homebrew/share/cmake/Modules/Platform/Linker/Apple-AppleClang.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/opt/homebrew/share/cmake/Modules/CMakeCXXInformation.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/opt/homebrew/share/cmake/Modules/CMakeLanguageInformation.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/opt/homebrew/share/cmake/Modules/Compiler/AppleClang-CXX.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/opt/homebrew/share/cmake/Modules/Compiler/Clang.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/opt/homebrew/share/cmake/Modules/Platform/Apple-AppleClang-CXX.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/opt/homebrew/share/cmake/Modules/Platform/Apple-Clang-CXX.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/opt/homebrew/share/cmake/Modules/Platform/Apple-Clang.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/opt/homebrew/share/cmake/Modules/CMakeCommonLanguageInclude.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/opt/homebrew/share/cmake/Modules/Internal/CMakeCXXLinkerInformation.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/opt/homebrew/share/cmake/Modules/Internal/CMakeCommonLinkerInformation.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/opt/homebrew/share/cmake/Modules/Linker/AppleClang-CXX.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/opt/homebrew/share/cmake/Modules/Linker/AppleClang.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/opt/homebrew/share/cmake/Modules/Platform/Linker/Apple-AppleClang-CXX.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/opt/homebrew/share/cmake/Modules/Platform/Linker/Apple-AppleClang.cmake"
+		},
+		{
+			"path" : "CatGame/CMakeLists.txt"
+		}
+	],
+	"kind" : "cmakeFiles",
+	"paths" : 
+	{
+		"build" : "/Users/rachel1o1/Old Desktop Stuff/USC stuff/Fall 2024/coca-f2024/build",
+		"source" : "/Users/rachel1o1/Old Desktop Stuff/USC stuff/Fall 2024/coca-f2024"
+	},
+	"version" : 
+	{
+		"major" : 1,
+		"minor" : 1
+	}
+}

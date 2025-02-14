@@ -1,5 +1,5 @@
-/Users/rachel1o1/Fall 2024/coca-f2024/build/CMakeFiles/edit_cache.dir
-/Users/rachel1o1/Fall 2024/coca-f2024/build/CMakeFiles/rebuild_cache.dir
-/Users/rachel1o1/Fall 2024/coca-f2024/build/CatGame/CMakeFiles/CatGame.dir
-/Users/rachel1o1/Fall 2024/coca-f2024/build/CatGame/CMakeFiles/edit_cache.dir
-/Users/rachel1o1/Fall 2024/coca-f2024/build/CatGame/CMakeFiles/rebuild_cache.dir
+/Users/rachel1o1/Old Desktop Stuff/USC stuff/Fall 2024/coca-f2024/build/CMakeFiles/edit_cache.dir
+/Users/rachel1o1/Old Desktop Stuff/USC stuff/Fall 2024/coca-f2024/build/CMakeFiles/rebuild_cache.dir
+/Users/rachel1o1/Old Desktop Stuff/USC stuff/Fall 2024/coca-f2024/build/CatGame/CMakeFiles/CatGame.dir
+/Users/rachel1o1/Old Desktop Stuff/USC stuff/Fall 2024/coca-f2024/build/CatGame/CMakeFiles/edit_cache.dir
+/Users/rachel1o1/Old Desktop Stuff/USC stuff/Fall 2024/coca-f2024/build/CatGame/CMakeFiles/rebuild_cache.dir

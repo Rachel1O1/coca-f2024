@@ -127,19 +127,19 @@
 			[
 				{
 					"backtrace" : 6,
-					"path" : "/Users/rachel1o1/Fall 2024/coca-f2024/Libraries/stb/include"
+					"path" : "/Users/rachel1o1/Old Desktop Stuff/USC stuff/Fall 2024/coca-f2024/Libraries/stb/include"
 				},
 				{
 					"backtrace" : 7,
-					"path" : "/Users/rachel1o1/Fall 2024/coca-f2024/Libraries/rapidjson/include"
+					"path" : "/Users/rachel1o1/Old Desktop Stuff/USC stuff/Fall 2024/coca-f2024/Libraries/rapidjson/include"
 				},
 				{
 					"backtrace" : 8,
-					"path" : "/Users/rachel1o1/Fall 2024/coca-f2024/Libraries/GLEW/include"
+					"path" : "/Users/rachel1o1/Old Desktop Stuff/USC stuff/Fall 2024/coca-f2024/Libraries/GLEW/include"
 				},
 				{
 					"backtrace" : 9,
-					"path" : "/Users/rachel1o1/Fall 2024/coca-f2024/Libraries/SDL/include"
+					"path" : "/Users/rachel1o1/Old Desktop Stuff/USC stuff/Fall 2024/coca-f2024/Libraries/SDL/include"
 				}
 			],
 			"language" : "CXX",
@@ -185,16 +185,16 @@
 			},
 			{
 				"backtrace" : 3,
-				"fragment" : "-L\"/Users/rachel1o1/Fall 2024/coca-f2024/Libraries/GLEW/lib/mac\"",
+				"fragment" : "-L\"/Users/rachel1o1/Old Desktop Stuff/USC stuff/Fall 2024/coca-f2024/Libraries/GLEW/lib/mac\"",
 				"role" : "libraryPath"
 			},
 			{
 				"backtrace" : 4,
-				"fragment" : "-L\"/Users/rachel1o1/Fall 2024/coca-f2024/Libraries/SDL/lib/mac\"",
+				"fragment" : "-L\"/Users/rachel1o1/Old Desktop Stuff/USC stuff/Fall 2024/coca-f2024/Libraries/SDL/lib/mac\"",
 				"role" : "libraryPath"
 			},
 			{
-				"fragment" : "-Wl,-rpath,\"/Users/rachel1o1/Fall 2024/coca-f2024/Libraries/GLEW/lib/mac\" -Wl,-rpath,\"/Users/rachel1o1/Fall 2024/coca-f2024/Libraries/SDL/lib/mac\"",
+				"fragment" : "-Wl,-rpath,\"/Users/rachel1o1/Old Desktop Stuff/USC stuff/Fall 2024/coca-f2024/Libraries/GLEW/lib/mac\" -Wl,-rpath,\"/Users/rachel1o1/Old Desktop Stuff/USC stuff/Fall 2024/coca-f2024/Libraries/SDL/lib/mac\"",
 				"role" : "libraries"
 			},
 			{
