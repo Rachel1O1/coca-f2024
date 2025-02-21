@@ -60,7 +60,8 @@ void PlayerMove::Update(float deltaTime)
 	float newY = mOwner->GetPosition().y + (deltaTime * mYSpeed);
 	if (newY > (1.0f * (mGame->WINDOW_HEIGHT + mPlayer->PLAYER_SIZE)))
 	{
-		PlayerDies();
+		newY -= mGame->WINDOW_HEIGHT;
+		//PlayerDies();
 	}
 	mOwner->SetPosition(Vector2(mOwner->GetPosition().x, newY));
 
@@ -91,6 +92,13 @@ void PlayerMove::Update(float deltaTime)
 	mYSpeed += Y_ACCELERATION * deltaTime;
 
 	float newCameraX = (mOwner->GetPosition().x - (mGame->WINDOW_WIDTH / 2));
+	
+	mGame->GetCameraPos().x = newCameraX;
+	if (newCameraX < 0)
+	{
+		mGame->GetCameraPos().x = 0.0f;
+	}
+	/*
 	if (newCameraX > mGame->GetCameraPos().x)
 	{
 		mGame->GetCameraPos().x = newCameraX;
@@ -99,6 +107,8 @@ void PlayerMove::Update(float deltaTime)
 			mGame->GetCameraPos().x = 0.0f;
 		}
 	}
+	*/
+
 
 	if (mOwner->GetPosition().x < mGame->GetCameraPos().x)
 	{
