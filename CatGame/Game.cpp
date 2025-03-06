@@ -16,6 +16,7 @@
 #include "CollisionComponent.h"
 #include "Block.h"
 #include "Player.h"
+#include "UICounter.h"
 
 Game::Game()
 {
@@ -26,6 +27,8 @@ Game::Game()
 	mPlayer = nullptr;
 	mCameraPosition = Vector2(0.0f, 0.0f);
 	mMusicChannel = 0;
+	mCount = LIVES_STARTING;
+	mTriggerReset = false;
 }
 
 bool Game::Initialize()
@@ -144,6 +147,12 @@ void Game::UpdateGame()
 	{
 		delete actorsToDestroy.at(i);
 	}
+
+	if (mTriggerReset)
+	{
+		mTriggerReset = false;
+		Reset();
+	}
 }
 
 void Game::GenerateOutput()
@@ -209,6 +218,10 @@ void Game::LoadData()
 				Player* p = new Player(this);
 				p->SetPosition(Vector2(currentX, currentY));
 				mPlayer = p;
+
+				//add Counter
+				mCounter = new UICounter(this, mCount);
+				mCounter->SetPosition(Vector2(currentX + COUNTER_OFFSET_X, currentY + COUNTER_OFFSET_Y));
 			}
 
 			currentX += ONE_GRID_UNIT;
@@ -298,6 +311,11 @@ Vector2& Game::GetCameraPos()
 	return mCameraPosition;
 }
 
+void Game::SetCounterPos(int x)
+{
+	mCounter->SetPosition(Vector2(x + COUNTER_OFFSET_X, mCounter->GetPosition().y));
+}
+
 void Game::PlaySoundOnce(const std::string& filename)
 {
 	Mix_PlayChannel(-1, GetSound(filename), 0);
@@ -327,6 +345,18 @@ void Game::StopBGMusic(bool playerWins)
 	else
 	{
 		PlaySoundOnce("Assets/Sounds/Dead.wav");
+	}
+}
+
+void Game::Reset()
+{
+	mCount--;
+	if (mCount <= 0)
+	{
+		mPlayer->PlayerDies();
+	} else {
+		UnloadData();
+		LoadData();
 	}
 }
 

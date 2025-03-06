@@ -49,3 +49,8 @@ const std::string& Player::GetAnimationName()
 {
 	return mAnimatedSprite->GetAnimName();
 }
+
+void Player::PlayerDies()
+{
+	mPlayerMove->PlayerDies();
+}

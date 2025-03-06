@@ -1,5 +1,0 @@
-/Users/dabenliu/Desktop/CatGame/coca-f2024/build/CMakeFiles/edit_cache.dir
-/Users/dabenliu/Desktop/CatGame/coca-f2024/build/CMakeFiles/rebuild_cache.dir
-/Users/dabenliu/Desktop/CatGame/coca-f2024/build/CatGame/CMakeFiles/CatGame.dir
-/Users/dabenliu/Desktop/CatGame/coca-f2024/build/CatGame/CMakeFiles/edit_cache.dir
-/Users/dabenliu/Desktop/CatGame/coca-f2024/build/CatGame/CMakeFiles/rebuild_cache.dir

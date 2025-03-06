@@ -22,6 +22,9 @@ public:
 	const int ONE_GRID_UNIT = 32;
 	const int GRID_START_X = 16;
 	const int GRID_START_Y = 16;
+	const float COUNTER_OFFSET_Y = -270.0f;
+	const float COUNTER_OFFSET_X = 560.0f;
+	const int LIVES_STARTING = 9;
 	Game();
 	bool Initialize();
 	void EmRunIteration()
@@ -49,6 +52,9 @@ public:
 	Mix_Chunk* GetSound(const std::string& filename);
 	void PlaySoundOnce(const std::string& filename);
 	void StopBGMusic(bool playerWins);
+	void SetCounterPos(int x);
+	void Reset();
+	void TriggerReset() {mTriggerReset = true; }
 
 private:
 	void ProcessInput();
@@ -68,4 +74,7 @@ private:
 	Uint32 mPreviousTime;
 	Vector2 mCameraPosition;
 	int mMusicChannel;
+	class UICounter* mCounter;
+	int mCount;
+	bool mTriggerReset;
 };

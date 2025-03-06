@@ -10,6 +10,7 @@ public:
 	void SetDeadTexture();
 	void SetAnimation(const std::string& name);
 	const std::string& GetAnimationName();
+	void PlayerDies();
 
 protected:
 	class CollisionComponent* mCollisionComponent;

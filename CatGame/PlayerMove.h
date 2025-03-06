@@ -9,12 +9,12 @@ public:
 	const int Y_ACCELERATION = 2000;
 	const int FLAGPOLE_X = 6368;
 	PlayerMove(class Player* owner);
+	void PlayerDies();
 
 protected:
 	void UpdateAnimation();
 	void ProcessInput(const Uint8* keyState) override;
 	void Update(float deltaTime) override;
-	void PlayerDies();
 	class Player* mPlayer;
 	float mYSpeed;
 	bool mSpacePressed;
