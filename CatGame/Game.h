@@ -16,10 +16,10 @@
 class Game
 {
 public:
-	const int WINDOW_WIDTH = 600;
-	const int WINDOW_HEIGHT = 448;
-	const int MAP_WIDTH = 6784;
 	const int ONE_GRID_UNIT = 32;
+	const int WINDOW_WIDTH = 600;
+	const int WINDOW_HEIGHT = 14*ONE_GRID_UNIT;
+	const int MAP_WIDTH = 212*ONE_GRID_UNIT;
 	const int GRID_START_X = 16;
 	const int GRID_START_Y = 16;
 	const float COUNTER_OFFSET_Y = -270.0f;
@@ -60,7 +60,7 @@ private:
 	void ProcessInput();
 	void UpdateGame();
 	void GenerateOutput();
-	void LoadData();
+	void LoadData(int numFade = 0);
 	void UnloadData();
 	std::vector<class Actor*> mActors;
 	std::unordered_map<std::string, SDL_Texture*> mTextures;

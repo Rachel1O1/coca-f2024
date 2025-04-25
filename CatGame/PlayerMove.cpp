@@ -6,6 +6,13 @@
 #include "CollisionComponent.h"
 #include "Block.h"
 #include "SpriteComponent.h"
+#include <thread>
+#include <vector>
+#include "UICounter.h"
+
+using namespace std;
+
+vector<shared_ptr<thread>> disappear_blocks;
 
 PlayerMove::PlayerMove(class Player* owner)
 : MoveComponent(owner)
@@ -53,8 +60,9 @@ void PlayerMove::Update(float deltaTime)
 	mOwner->SetPosition((forwardV * deltaTime) + (mOwner->GetPosition()));
 	if (mOwner->GetPosition().x > FLAGPOLE_X)
 	{
-		mGame->StopBGMusic(true);
-		mPlayer->SetState(ActorState::Paused);
+		mGame->TriggerReset();
+		//mGame->StopBGMusic(true);
+		//mPlayer->SetState(ActorState::Paused);
 	}
 
 	float newY = mOwner->GetPosition().y + (deltaTime * mYSpeed);
@@ -72,7 +80,7 @@ void PlayerMove::Update(float deltaTime)
 	{
 		CollSide result = mPlayerCollisionComponent->GetMinOverlap(
 			mGame->GetBlocks()[i]->GetCollisionComponent(), offset);
-		if (result != CollSide::None)
+		if (result != CollSide::None && !mGame->GetBlocks()[i]->fade)
 		{
 			mOwner->SetPosition(mOwner->GetPosition() + offset);
 			if (result == CollSide::Top)
@@ -82,6 +90,11 @@ void PlayerMove::Update(float deltaTime)
 					mYSpeed = 0.0f;
 				}
 				mInAir = false;
+				
+				//added trigger touch();
+				if(mGame->GetBlocks()[i]->temp){
+					mGame->GetBlocks()[i]->onPlayerTouch();
+				}
 			}
 			else if ((result == CollSide::Bottom) && (mYSpeed < 0.0f))
 			{
@@ -89,7 +102,13 @@ void PlayerMove::Update(float deltaTime)
 				mYSpeed = 0.0f;
 			}
 		}
+		//update timer for disappearing blocks
+		if(mGame->GetBlocks()[i]->touched){
+			mGame->GetBlocks()[i]->update();
+		}
 	}
+	//
+
 	mYSpeed += Y_ACCELERATION * deltaTime;
 
 	float newCameraX = (mOwner->GetPosition().x - (mGame->WINDOW_WIDTH / 2));
@@ -166,5 +185,9 @@ void PlayerMove::PlayerDies()
 {
 	mPlayer->SetAnimation("dead");
 	mPlayer->SetState(ActorState::Paused);
+	//how to display gameover
+	GameOver* gg = new GameOver(mGame);
+	gg->SetPosition(Vector2(mGame->GetCameraPos().x + 300, mGame->GetCameraPos().y + 200));
+
 	mGame->StopBGMusic(false);
 }

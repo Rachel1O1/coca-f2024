@@ -185,7 +185,7 @@ void Game::RemoveActor(class Actor* removeMe)
 	mActors.erase(std::find(mActors.begin(), mActors.end(), removeMe));
 }
 
-void Game::LoadData()
+void Game::LoadData(int numFade)
 {
 	//Play bg music
 	mMusicChannel = Mix_PlayChannel(-1, GetSound("Assets/Sounds/Music.ogg"), -1);
@@ -208,10 +208,13 @@ void Game::LoadData()
 		for (size_t i = 0; i < inputSize; i++)
 		{
 			currentChar = input[i];
-			if ((currentChar >= 'A') && (currentChar <= 'I'))
+			if ((currentChar >= 'A') && (currentChar <= 'I' - numFade))
 			{
 				Block* b = new Block(this, currentChar);
 				b->SetPosition(Vector2(currentX, currentY));
+				if(currentChar > 'I' - (numFade+2)){
+					b->temp = true;
+				}
 			}
 			else if (currentChar == 'P')
 			{
@@ -356,7 +359,7 @@ void Game::Reset()
 		mPlayer->PlayerDies();
 	} else {
 		UnloadData();
-		LoadData();
+		LoadData(9-mCount);
 	}
 }
 

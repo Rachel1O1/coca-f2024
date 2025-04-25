@@ -1,12 +1,15 @@
 #include "Game.h"
 #include "Block.h"
-#include "SpriteComponent.h"
 #include "CollisionComponent.h"
+#include <thread>
+using namespace std;
+#include <unistd.h>
 
 Block::Block(Game* game, char blockType)
 : Actor(game)
 {
-	SpriteComponent* sc = new SpriteComponent(this);
+	gameTemp = game;
+	sc = new SpriteComponent(this);
 	switch (blockType)
 	{
 	case 'A':
