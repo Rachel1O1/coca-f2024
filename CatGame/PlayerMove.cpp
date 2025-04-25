@@ -93,7 +93,7 @@ void PlayerMove::Update(float deltaTime)
 				
 				//added trigger touch();
 				if(mGame->GetBlocks()[i]->temp){
-					mGame->GetBlocks()[i]->onPlayerTouch();
+					mGame->GetBlocks()[i]->OnPlayerTouch();
 				}
 			}
 			else if ((result == CollSide::Bottom) && (mYSpeed < 0.0f))
@@ -104,7 +104,7 @@ void PlayerMove::Update(float deltaTime)
 		}
 		//update timer for disappearing blocks
 		if(mGame->GetBlocks()[i]->touched){
-			mGame->GetBlocks()[i]->update();
+			mGame->GetBlocks()[i]->UpdateFade();
 		}
 	}
 	//

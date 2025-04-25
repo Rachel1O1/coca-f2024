@@ -16,23 +16,8 @@ public:
 	~Block();
 	const class CollisionComponent* GetCollisionComponent();
 
-	void onPlayerTouch() {
-        if (!touched && !fade) {
-            touched = true;
-            timer = 0;
-        }
-    }
-	void update() {
-        if (touched && !fade) {
-            timer ++;
-			sc->SetTexture(mGame->GetTexture("Assets/BlockGone.png"));
-            if (timer >= 100) {
-                fade = true;
-				touched = false;
-				mGame->RemoveBlock(this);
-            }
-        }
-    }
+	void OnPlayerTouch();
+	void UpdateFade();
 
 protected:
 	CollisionComponent* mCollisionComponent;

@@ -60,3 +60,21 @@ const CollisionComponent* Block::GetCollisionComponent()
 {
 	return mCollisionComponent;
 }
+
+void Block::OnPlayerTouch() {
+	if (!touched && !fade) {
+		touched = true;
+		timer = 0;
+	}
+}
+void Block::UpdateFade() {
+	if (touched && !fade) {
+		timer ++;
+		sc->SetTexture(mGame->GetTexture("Assets/BlockGone.png"));
+		if (timer >= 100) {
+			fade = true;
+			touched = false;
+			SetState(ActorState::Destroy);
+		}
+	}
+}
