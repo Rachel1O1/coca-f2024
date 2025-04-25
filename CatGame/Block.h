@@ -25,10 +25,11 @@ public:
 	void update() {
         if (touched && !fade) {
             timer ++;
+			sc->SetTexture(mGame->GetTexture("Assets/BlockGone.png"));
             if (timer >= 100) {
                 fade = true;
 				touched = false;
-				sc->SetTexture(mGame->GetTexture("Assets/BlockGone.png"));
+				mGame->RemoveBlock(this);
             }
         }
     }
