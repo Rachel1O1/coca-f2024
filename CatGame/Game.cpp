@@ -17,6 +17,7 @@
 #include "Block.h"
 #include "Player.h"
 #include "UICounter.h"
+#include <iostream> //get rid of later
 
 Game::Game()
 {
@@ -194,7 +195,7 @@ void Game::LoadData(int numFade)
 	Actor* background = new Actor(this);
 	background->SetPosition(Vector2((MAP_WIDTH / 2), (WINDOW_HEIGHT / 2)));
 	SpriteComponent* sc = new SpriteComponent(background, 50);
-	sc->SetTexture(GetTexture("Assets/Background.png"));
+	sc->SetTexture(GetTexture("Assets/Background2.png"));
 
 	//Loads in objects
 	std::ifstream reader("Assets/Level1.txt");
@@ -208,8 +209,12 @@ void Game::LoadData(int numFade)
 		for (size_t i = 0; i < inputSize; i++)
 		{
 			currentChar = input[i];
-			if(currentChar != 'P'){
+			if(currentChar != 'P' && currentChar != 'Y' && currentChar != '.'){
 				currentChar += numFade;
+				if (currentChar >= 'J')
+				{
+					currentChar = '.';
+				}
 			}
 			if ((currentChar >= 'A') && (currentChar <= 'H'))
 			{
@@ -220,6 +225,10 @@ void Game::LoadData(int numFade)
 				Block* b = new Block(this, currentChar);
 				b->SetPosition(Vector2(currentX, currentY));
 				b->temp = true;
+			}
+			else if(currentChar == 'Y'){
+				Block* b = new Block(this, currentChar);
+				b->SetPosition(Vector2(currentX, currentY));
 			}
 			else if (currentChar == 'P')
 			{

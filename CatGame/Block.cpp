@@ -39,6 +39,9 @@ Block::Block(Game* game, char blockType)
 	case 'I':
 		sc->SetTexture(game->GetTexture("Assets/BlockI.png"));
 		break;
+	case 'Y':
+		sc->SetTexture(game->GetTexture("Assets/ForeverBlock.png"));
+		break;
 	}
 
 	CollisionComponent* cc = new CollisionComponent(this);
