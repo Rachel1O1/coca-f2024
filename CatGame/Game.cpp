@@ -208,13 +208,18 @@ void Game::LoadData(int numFade)
 		for (size_t i = 0; i < inputSize; i++)
 		{
 			currentChar = input[i];
-			if ((currentChar >= 'A') && (currentChar <= 'I' - numFade))
+			if(currentChar != 'P'){
+				currentChar += numFade;
+			}
+			if ((currentChar >= 'A') && (currentChar <= 'H'))
 			{
 				Block* b = new Block(this, currentChar);
 				b->SetPosition(Vector2(currentX, currentY));
-				if(currentChar > 'I' - (numFade+2)){
-					b->temp = true;
-				}
+			}
+			else if(currentChar == 'I'){
+				Block* b = new Block(this, currentChar);
+				b->SetPosition(Vector2(currentX, currentY));
+				b->temp = true;
 			}
 			else if (currentChar == 'P')
 			{
